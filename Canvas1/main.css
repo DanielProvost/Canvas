@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+
+}
+body{
+	width:900px;
+}
+canvas{
+	border:1px solid black;
+	margin:auto;
+	padding:0;
+	display: block;
+}
+h1{
+	text-align:center;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+#boutonCirculaire1{
+	 width: 30px;
+	 height: 30px;
+	 border:1px black solid;
+	 display: inline-block;
+	 border-radius: 50%;
+	background-color:blue;
+	margin-right:2%;
+ }
+#boutonCirculaire2{
+	width: 30px;
+	height: 30px;
+	border:1px black solid;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: green;
+	margin-right:2%;
+}
+#boutonCirculaire3{
+	width: 30px;
+	height: 30px;
+	border:1px black solid;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: red;
+}
+#reset{
+	width:100px;
+	margin-top:5%;
+	margin-left:44%;
+}
